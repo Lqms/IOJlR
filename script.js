@@ -34,7 +34,7 @@ function nextSlide() {
      heading_one.innerHTML = `Если бы Карина была ${titles[slide]}, то это определённо:`;
      heading_two.innerHTML = `${title_names[slide]}`;
      paragraph.innerHTML = `Потому что ${title_info[slide]}`;
-     image.style.backgroundImage = `url(images/image${slide}.jpg)` 
+     image.style.backgroundImage = `url(image${slide}.jpg)` 
 } 
   
 document.querySelector("#slider-speed").onchange = function(){
