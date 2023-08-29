@@ -31,7 +31,7 @@ function nextSlide() {
 
 // смена внутренностей слайда
  function change_inner(){
-     heading_one.innerHTML = `Если бы Карина была ${titles[slide]}, то это определённо:`;
+     heading_one.innerHTML = `Если бы Вика была ${titles[slide]}, то это определённо:`;
      heading_two.innerHTML = `${title_names[slide]}`;
      paragraph.innerHTML = `Потому что ${title_info[slide]}`;
      image.style.backgroundImage = `url(image${slide}.jpg)` 
