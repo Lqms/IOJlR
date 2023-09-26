@@ -11,6 +11,7 @@ let title_info = [
                 "она застынет в моей памяти навсегда в виде образа милашки в голубом пальто"
                 ];
 
+
 let TIME_OF_SLIDE = 3000;
 const SLIDE_COUNT = titles.length;
 let slide = 0;
