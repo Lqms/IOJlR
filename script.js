@@ -12,7 +12,7 @@ let title_info = [
                 ];
 
 
-let TIME_OF_SLIDE = 3000;
+let TIME_OF_SLIDE = 9000;
 const SLIDE_COUNT = titles.length;
 let slide = 0;
 let heading_one = document.querySelector("#heading1");
